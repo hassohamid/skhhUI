@@ -1,12 +1,16 @@
+import { CornerFrame } from "./components/CornerFrame";
+
 export default function App() {
   return (
-    <>
-      <h1
-        className="bg-black text-white
-      flex items-center justify-center min-h-screen text-4xl"
-      >
-        skhhUI
-      </h1>
-    </>
+    <div className=" flex items-center justify-center min-h-screen">
+      <CornerFrame>
+        <h1
+          className=" text-black font-bold
+        text-4xl"
+        >
+          skhhUI
+        </h1>
+      </CornerFrame>
+    </div>
   );
 }
